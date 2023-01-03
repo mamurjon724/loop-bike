@@ -1,0 +1,63 @@
+body {
+    background: rgb(78, 162, 119);  
+    font-family: sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.advertisement {
+    display: block;
+    background: #fff;
+    max-width: 580px;
+    max-height: 480px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 500px;
+}
+
+.advertisement div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part_1>h2,
+.part_3>p>strong,
+.part_4>p>strong,
+.part_5>p>strong {
+    font-size: 25px;
+}
+
+.part_3>h4,
+.part_4>h4 {
+    font-size: 15px;
+}
+
+.bike {
+    position: absolute;
+    top: 283px;
+    margin-left: -20px;
+    object-fit: cover;
+    width: 560px;
+    height: 225px;
+    object-position: 100% 30%;
+}
+
+.part_2 {
+    color: rgb(190, 187, 187);
+}
+
+.part_3>h4,
+.part_4>h4,
+.part_5>h3 {
+    color: rgb(143, 135, 135);
+}
